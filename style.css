@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
 
-*
-{
+* {
     box-sizing: border-box;
 }
+
 body {
     background-color: #f5f5f5;
     color: #444;
@@ -42,8 +42,7 @@ form {
     color: #dadada;
 }
 
-.todos
-{
+.todos {
     padding: 0;
     margin: 0;
     background-color: #fff;
@@ -56,14 +55,24 @@ form {
     font-size: 1.5rem;
     padding: 1rem 2rem;
 }
-.complete
-{
+
+.complete {
     text-decoration: line-through;
     color: #969494;
 }
-small
-{
+
+small {
     margin-top: 3rem;
     color: #bdbaba;
     text-align: center;
+}
+
+@media (max-width: 800px) {
+    .todos li {
+        font-size: .5rem;
+    }
+    h1
+    {
+        font-size: 5rem;
+    }
 }
