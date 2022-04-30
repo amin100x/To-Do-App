@@ -68,9 +68,6 @@ small {
 }
 
 @media (max-width: 800px) {
-    .todos li {
-        font-size: .5rem;
-    }
     h1
     {
         font-size: 5rem;
